@@ -1,0 +1,32 @@
+h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+  }
+.header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:6px 30px 1px 30px;
+    float:center
+}
+.nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;
+    margin:0px;
+}
+.section {
+    width:400px;
+    float:left;
+    padding:10px; 
+}
+.footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
