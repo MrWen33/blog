@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" href="{{ site.url }}/blog/css/default.css">
-	<title>{{ page.title }}</title>
-</head>
-
+<html lang="en">
+{% include head.html %}
 <body>
-<div class="header">
-	<h1>
-		<a href={{ site.url }}/blog/>
-		<img border="0" src="{{ site.url }}/blog/assets/title.png" height="40" width="200">
-		</a>
-	</h1>
-</div>
 
-<div class="nav">
-<a href="{{ site.url }}/blog/">最新文章</a>
-</div>
-
-<div class="section">
-	{{ content }}
-</div>
+  <div class="wrapper">
+    {{ content }}
+  </div>
+  
+  {% include analytics.html %}
 </body>
-
 </html>
