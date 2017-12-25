@@ -2,6 +2,7 @@
 layout: post
 title: 在markdown文件中导入Latex公式的方法
 tags: [TIPS]
+img: latex-logo.svg
 ---
 
 从[这里](http://blog.csdn.net/xiahouzuoxin/article/details/26478179)看到的方法，记录一下。
