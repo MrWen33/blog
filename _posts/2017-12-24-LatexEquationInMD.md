@@ -3,7 +3,7 @@ layout: post
 title: 在markdown文件中导入Latex公式的方法
 tags: [TIPS]
 ---
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
 从[这里](http://blog.csdn.net/xiahouzuoxin/article/details/26478179)看到的方法，记录一下。
 
 ##使用MathJax引擎
